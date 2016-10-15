@@ -35,7 +35,7 @@ La siguiente tabla compara las funcionalidades de Servicio de aplicaciones, Serv
 Característica|Servicio de aplicaciones (aplicaciones web)|Servicios en la nube (roles web)|Máquinas virtuales|Service Fabric|Notas
 ---|---|---|---|---|---
 Implementación casi instantánea|X|||X|La implementación de una aplicación o la actualización de una aplicación a un Servicio en la nube, o la creación de una máquina virtual, toma varios minutos; la implementación de una aplicación a una aplicación web tarda segundos.
-Escalado horizontal a máquinas más grandes sin volver a implementar|X|||X|
+Escalado vertical a máquinas más grandes sin volver a implementar|X|||X|
 Las instancias de un servidor web comparten contenido y configuración; esto significa que no es necesario volver a implementar o configurar a medida que escale.|X|||X|
 Varios entornos de implementación (producción y ensayo)|X|X||X|Service Fabric le permite tener varios entornos para las aplicaciones o para implementar versiones diferentes de su aplicación en paralelo.
 Administración de actualización automática del SO|X|X|||Las actualizaciones automáticas del SO están previstas para las próximas versiones de Service Fabric.
